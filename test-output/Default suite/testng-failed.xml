@@ -5,8 +5,11 @@
     <classes>
       <class name="ebay_login_automation.TestScript">
         <methods>
-          <include name="signIn"/>
+          <include name="signIn" invocation-numbers="0"/>
+          <include name="getlink"/>
+          <include name="closeAll"/>
           <include name="setup"/>
+          <include name="signOut"/>
         </methods>
       </class> <!-- ebay_login_automation.TestScript -->
     </classes>

@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46215" started-at="2018-08-21T18:04:55Z" finished-at="2018-08-21T18:05:41Z">
+  <suite name="Default suite" duration-ms="35153" started-at="2018-08-22T06:53:47Z" finished-at="2018-08-22T06:54:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46215" started-at="2018-08-21T18:04:55Z" finished-at="2018-08-21T18:05:41Z">
+    <test name="Default test" duration-ms="35153" started-at="2018-08-22T06:53:47Z" finished-at="2018-08-22T06:54:23Z">
       <class name="ebay_login_automation.TestScript">
-        <test-method status="PASS" signature="setup()[pri:0, instance:ebay_login_automation.TestScript@5c7fa833]" name="setup" is-config="true" duration-ms="4696" started-at="2018-08-21T18:04:55Z" finished-at="2018-08-21T18:05:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ebay_login_automation.TestScript@724af044]" name="setup" is-config="true" duration-ms="4545" started-at="2018-08-22T06:53:47Z" finished-at="2018-08-22T06:53:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="googlesearch()[pri:2, instance:ebay_login_automation.TestScript@5c7fa833]" name="googlesearch" duration-ms="5380" started-at="2018-08-21T18:05:00Z" finished-at="2018-08-21T18:05:05Z">
+        <test-method status="PASS" signature="googlesearch()[pri:2, instance:ebay_login_automation.TestScript@724af044]" name="googlesearch" duration-ms="4796" started-at="2018-08-22T06:53:52Z" finished-at="2018-08-22T06:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlesearch -->
-        <test-method status="PASS" signature="getlink()[pri:3, instance:ebay_login_automation.TestScript@5c7fa833]" name="getlink" duration-ms="3319" started-at="2018-08-21T18:05:05Z" finished-at="2018-08-21T18:05:08Z">
+        <test-method status="PASS" signature="getlink()[pri:3, instance:ebay_login_automation.TestScript@724af044]" name="getlink" duration-ms="3016" started-at="2018-08-22T06:53:57Z" finished-at="2018-08-22T06:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getlink -->
-        <test-method status="PASS" signature="signIn()[pri:4, instance:ebay_login_automation.TestScript@5c7fa833]" name="signIn" duration-ms="31297" started-at="2018-08-21T18:05:08Z" finished-at="2018-08-21T18:05:40Z">
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:4, instance:ebay_login_automation.TestScript@724af044]" name="signIn" duration-ms="16596" started-at="2018-08-22T06:54:00Z" data-provider="getData" finished-at="2018-08-22T06:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b7058880@nwytg.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd@1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method status="PASS" signature="closeAll()[pri:0, instance:ebay_login_automation.TestScript@5c7fa833]" name="closeAll" is-config="true" duration-ms="1494" started-at="2018-08-21T18:05:40Z" finished-at="2018-08-21T18:05:41Z">
+        <test-method status="PASS" signature="signOut()[pri:5, instance:ebay_login_automation.TestScript@724af044]" name="signOut" duration-ms="4594" started-at="2018-08-22T06:54:16Z" finished-at="2018-08-22T06:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:ebay_login_automation.TestScript@724af044]" name="closeAll" is-config="true" duration-ms="1580" started-at="2018-08-22T06:54:21Z" finished-at="2018-08-22T06:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAll -->
